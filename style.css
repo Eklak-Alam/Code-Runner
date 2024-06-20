@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    height: auto;
+    width: 100%;
+
+}
+
+.container{
+    height: 100vh;
+    width: 100%;
+    background-color: #a5a5a5d0;
+}
+
+.top{
+    height: 50%;
+    padding: 0px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);}
+
+label{
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #000000;
+    color: white;
+    padding: 5px;
+    font-size: 18px;
+    margin-right: 17px;
+}
+
+textarea{
+    height: 92%;
+    width: 490px;
+    padding: 5px;
+    outline: none;
+}
+
+label i{
+    margin-right: 10px;
+}
+
+iframe{
+    height: 100vh;
+    width: 100%;
+    background-color: white;
+
+}
+
+#output-label{
+    margin: 0px;
+}
